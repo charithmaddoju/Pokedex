@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Pokedex from './Pokedex';
+import './Pokegame.css';
 
 class Pokegame extends Component{
     static defaultProps = {
@@ -26,7 +27,8 @@ class Pokegame extends Component{
         let exp2 = hand2.reduce((exp, pokemon) => exp + pokemon.exp, 0);
 
         return(
-            <div>
+            <div className="Pokegame">
+                <h1 className="Pokegame-header">REFRESH!! to Match Pairs</h1>
                 <Pokedex pokemon={hand1} exp={exp1}
                 isWinner={exp1 > exp2}
                 />
