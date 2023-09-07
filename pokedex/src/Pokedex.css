@@ -6,3 +6,11 @@
     margin: 0 auto;
     padding: 0 50px;
 }
+
+.Pokedex-winner{
+    color: #4caf50;
+}
+
+.Pokedex-loser{
+    color: #f44336;
+}
