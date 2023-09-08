@@ -1,6 +1,8 @@
 # Pokedex
 A fun 4v4 Pokemon game, which shows the **winning hand team** and **losing hand team** based on the total experience of the **team**
 
+https://charithmaddoju.github.io/Pokedex/
+
 ## Available Scripts
 
 In the project directory, you can run:
